@@ -1,5 +1,5 @@
 
-# workshop: IoT Prototyping: Sensorer og Mikrokontrollere
+# IoT Prototyping: Sensorer og Mikrokontrollere
 Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en informativ workshop med noe lett coding og testing. 
 
 ## 1. Installering av software
@@ -19,7 +19,7 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  6. Installer [Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools/Download#infotabs)
  
  
- ## 2. Last ned første "application"
+ ## 2. En enkel applikasjon
  
  1. Last ned koden til dette prosjektet, ved å trykke på `Code` knappen, og trykk på `Download Zip`.
  
