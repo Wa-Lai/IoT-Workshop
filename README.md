@@ -21,16 +21,22 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  
  ## 2. En enkel applikasjon
  
- 1. Last ned koden til dette prosjektet, ved å trykke på `Code` knappen, og trykk på `Download Zip`.
+ 1. Lage en ny mappe i `C:\` driven din med et navn du husker. F.eks. `Nordic`.
  
- 2. I VS Code, gå til nRF Connect som er vist i activity bar på venstre side, og under `WELCOME` trykke på `Open an existing application` og velg mappen du nettopp lastet ned. 
+ 2. I VS Code, gå til nRF Connect som er vist i activity bar på venstre side, og under `WELCOME` trykke på `Create a new application` og velg `Copy a Sample`.
  
- 3. Under `Application` vil prosjektet dukke opp og det vil stå `No build configurations`. Trykke på den og velg `Board` velger du `thingy91_nrf9160_ns` eller `nrf9160dk_nrf9160_nsog trykker på `Build Configuration`. 
+ 3.  I feltet som kommer opp, søk etter og velg `Blinky Sample`.
  
- 4. Når build er ferdig, må du velge `Link Build Configuration And Device`, deretter `Flash` under `ACTIONS`. 
+ 4.  I det neste feltet, trykk på mappe iconet over feltet til høyre. Velg mappen du lagde tidliger, eller skriv inn mappe adressen manuelt, f.eks. `C:\Nordic`.
  
- 5. Nå skal lyset blinke. 
+ 5.  Lag et navn på aplicasjoen, f.eks. `Blinky_test`, trykk så på `Open` i dialogen som popper opp.
  
- 6. Gå inn på [prj.conf](https://github.com/joridho/workshop-nordic-semiconductor/blob/main/workshop-materiale/prj.conf) og endre CONFIG_BLINK=n og CONFIG_MAIN=y. Flash på nytt. 
+ 7. Under `Application` vil prosjektet dukke opp og det vil stå `No build configurations`. Trykke på den og velg `Board` velger du `thingy91_nrf9160_ns` eller `nrf9160dk_nrf9160_nsog trykker på `Build Configuration`. 
  
- 7. Nå skal lyset gå av og på når du trykker på knappen. 
+ 8. Når build er ferdig, må du velge `Link Build Configuration And Device`, deretter `Flash` under `ACTIONS`. 
+ 
+ 9. Nå skal lyset blinke. 
+ 
+ 10. Gå inn på [prj.conf](https://github.com/joridho/workshop-nordic-semiconductor/blob/main/workshop-materiale/prj.conf) og endre CONFIG_BLINK=n og CONFIG_MAIN=y. Flash på nytt. 
+ 
+ 11. Nå skal lyset gå av og på når du trykker på knappen. 
