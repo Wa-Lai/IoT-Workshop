@@ -37,6 +37,8 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  
  9. Nå skal lyset blinke.
 
-## 3. Sende målinger over Bluetooth
+## 3. Asset tracker
 
-1. Trykk på 
+1. Opprett ny en ny applicasjon på sammen måte som forje eksempel, men denne gangen søk etter og velg `asset_tracker_v2` istendenfor `Blinky Sample`.
+
+2.  
