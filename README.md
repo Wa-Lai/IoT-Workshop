@@ -41,4 +41,8 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
 
 1. Opprett ny en ny applicasjon på sammen måte som forje eksempel, men denne gangen søk etter og velg `asset_tracker_v2` istendenfor `Blinky Sample`.
 
-2.  
+2.  Gå til [nRF Cloud](https://nrfcloud.com) og lag en bruker.
+
+3.  Trykk på plusset, registrer LTE Device. Nederst til høyre kan du velge å hoppe over å registrere sim-kort.
+
+4.  Build, link og flash Application slik som i forje eksempel. Etter det skal det begyne å komme data inn på nRF Cloud.
