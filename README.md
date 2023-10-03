@@ -31,7 +31,7 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  
  5.  Lag et navn på aplicasjoen, f.eks. `Blinky_test`, trykk så på `Open` i dialogen som popper opp.
  
- 7. Under `Application` vil prosjektet dukke opp og det vil stå `No build configurations`. Trykke på den og velg `Board` velger du `thingy91_nrf9160_ns` eller `nrf9160dk_nrf9160_nsog trykker på `Build Configuration`. 
+ 7. Under `Application` vil prosjektet dukke opp og det vil stå `No build configurations`. Trykke på den og velg `Board` velger du `nrf9160dk_nrf9160_ns` og trykker på `Build Configuration`. 
  
  8. Når build er ferdig, må du velge `Link Build Configuration And Device`, deretter `Flash` under `ACTIONS`. 
  
@@ -58,7 +58,7 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
 
 10. Trykk `ctrl + s` for å lagre endringene.
 
-11. `Flash` coden til brettet, du burde nå se `LED1` blinke hvert sekund.
+11. `Link` build og `Flash` coden til brettet slik som med forje eksempel, du burde nå se `LED1` blinke hvert sekund.
 
 12. Åpne TeraTerm som administartor og velg `Serial` og `OK`.
 
