@@ -33,7 +33,7 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  
  5.  Lag et navn på applikasjon, f.eks. `Blinky_test`, trykk så på `Open` i dialogen som popper opp.
  
- 7. Under `Application` vil prosjektet dukke opp og det vil stå `No build configurations`. Trykke på den og velg `Board` velger du `nrf9160dk_nrf9160_ns` og trykker på `Build Configuration`. 
+ 7. Under `Application` vil prosjektet dukke opp og det vil stå `No build configurations`. Trykke på den og velg `Board` velger du `nrf52840dk_nrf52840` og trykker på `Build Configuration`. 
  
  8. Når build er ferdig, må du velge `Link Build Configuration And Device`, deretter `Flash` under `ACTIONS`. 
  
