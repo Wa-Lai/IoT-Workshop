@@ -72,7 +72,7 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
 
 17. Trykk på Opplastningspilen på til høyre for `RX Characteristic`.
 
-18. I feltet hvor det står `New Value` skriv inn det du har lyst til å sende over bluetooth til PC'en trykk `Send` og se det dukke opp i Tera Term.
+18. I feltet hvor det står `New Value` skriv inn det du har lyst til å sende over bluetooth til PC'en trykk `Send` så vil det dukke opp i Tera Term.
 
 ## 4. Asset tracker
 
@@ -82,4 +82,4 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
 
 3.  Trykk på plusset, registrer LTE Device. Nederst til høyre kan du velge å hoppe over å registrere sim-kort.
 
-4.  Build, link og flash Application slik som i forje eksempel. Etter det skal det begyne å komme data inn på nRF Cloud.
+4.  Build, link og flash Application slik som i forrige eksempel. Etter det skal det begyne å komme data inn på nRF Cloud.
