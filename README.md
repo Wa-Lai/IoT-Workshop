@@ -37,7 +37,44 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  
  9. Nå skal lyset blinke.
 
-## 3. Asset tracker
+## 3. Sende meldinger over bluetooth
+1. Installer [Tera Term](https://osdn.net/projects/ttssh2/releases/)
+
+2. Lastned Appen `nRF Connect for Mobile`.
+
+3. Lag en ny applikasjon, velg `Copy a sample`.
+
+4. I feltet som kommer opp, søk etter og velg `BLE UART service`.
+
+5. Velg mappen fra tidligere og trykk på `Enter` for resten av promtene.
+
+6. Lag en `Build Configuration` for applikasjonen.
+
+7. Gå inn i main filen til programmet og finn line `42` hvor det står `#define DEVICE_NAME CONFIG_BT_DEVICE_NAME`.
+
+8. Hold inne ctrl og trykk på `CONFIG_BT_DEVICE_NAME`.
+
+9. Endre på stringen hvor det står `Nordic_UART_Service` til noe du kjenner igjen, f.eks kan du legge til navnet ditt på slutten.
+
+10. Trykk `ctrl + s` for å lagre endringene.
+
+11. `Flash` coden til brettet, du burde nå se `LED1` blinke hvert sekund.
+
+12. Åpne TeraTerm som administartor og velg `Serial` og `OK`.
+
+13. Trykk på fanen `Setup` og velg `Serial`, endre `Speed` til `115200` og trykk på `New Setting`.
+
+14. Gå inn på mobil appliksajonen du lastet ned og finn navnet du endretet til under `Scanner`.
+
+15. Trykk på `Connect` og se at `LED2` nå lyser konstant.
+
+16. Under `Client` trykk på `Nordic UART Service`.
+
+17. Trykk på Opplastningspilen på til høyre for `RX Characteristic`.
+
+18. I feltet hvor det står `New Value` skriv inn det du har lyst til å sende over bluetooth til PC'en trykk `Send` og se det dukke opp i Tera Term.
+
+## 4. Asset tracker
 
 1. Opprett ny en ny applicasjon på sammen måte som forje eksempel, men denne gangen søk etter og velg `asset_tracker_v2` istendenfor `Blinky Sample`.
 
