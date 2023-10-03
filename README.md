@@ -31,7 +31,7 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  
  4.  I det neste feltet, trykk på mappe iconet over feltet til høyre. Velg mappen du lagde tidliger, eller skriv inn mappe adressen manuelt, f.eks. `C:\Nordic`.
  
- 5.  Lag et navn på aplicasjoen, f.eks. `Blinky_test`, trykk så på `Open` i dialogen som popper opp.
+ 5.  Lag et navn på applikasjon, f.eks. `Blinky_test`, trykk så på `Open` i dialogen som popper opp.
  
  7. Under `Application` vil prosjektet dukke opp og det vil stå `No build configurations`. Trykke på den og velg `Board` velger du `nrf9160dk_nrf9160_ns` og trykker på `Build Configuration`. 
  
