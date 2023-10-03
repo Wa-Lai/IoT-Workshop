@@ -35,8 +35,8 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  
  8. Når build er ferdig, må du velge `Link Build Configuration And Device`, deretter `Flash` under `ACTIONS`. 
  
- 9. Nå skal lyset blinke. 
- 
- 10. Gå inn på [prj.conf](https://github.com/joridho/workshop-nordic-semiconductor/blob/main/workshop-materiale/prj.conf) og endre CONFIG_BLINK=n og CONFIG_MAIN=y. Flash på nytt. 
- 
- 11. Nå skal lyset gå av og på når du trykker på knappen. 
+ 9. Nå skal lyset blinke.
+
+## 3. Sende målinger over Bluetooth
+
+1. Trykk på 
