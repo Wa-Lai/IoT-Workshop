@@ -12,7 +12,7 @@ Denne workshoppen går ut på å lære om IoT Prototyping. Det er i hovedsak en 
  - LTE Link Monitor
  - Toolchain Manager 
  
- 4. Åpne Toolchain Manager og installer nRF Connect SDK v2.4.2
+ 4. Åpne Toolchain Manager og installer `nRF Connect SDK v2.4.2`
  
  5. Trykk på `Open in VS Code` og installer `missing packages`.
 
